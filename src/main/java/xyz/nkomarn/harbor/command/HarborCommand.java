@@ -1,5 +1,8 @@
 package xyz.nkomarn.harbor.command;
 
+import java.util.Arrays;
+import java.util.List;
+
 import org.bukkit.ChatColor;
 import org.bukkit.World;
 import org.bukkit.command.Command;
@@ -10,9 +13,6 @@ import org.jetbrains.annotations.NotNull;
 import xyz.nkomarn.harbor.Harbor;
 import xyz.nkomarn.harbor.task.Checker;
 import xyz.nkomarn.harbor.util.Config;
-
-import java.util.Arrays;
-import java.util.List;
 
 public class HarborCommand implements TabExecutor {
 

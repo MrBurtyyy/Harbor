@@ -1,5 +1,7 @@
 package xyz.nkomarn.harbor.listener;
 
+import java.util.concurrent.TimeUnit;
+
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -9,8 +11,6 @@ import org.bukkit.event.player.PlayerBedLeaveEvent;
 import org.jetbrains.annotations.NotNull;
 import xyz.nkomarn.harbor.Harbor;
 import xyz.nkomarn.harbor.util.PlayerManager;
-
-import java.util.concurrent.TimeUnit;
 
 public class BedListener implements Listener {
 

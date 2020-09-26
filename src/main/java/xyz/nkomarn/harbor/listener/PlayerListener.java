@@ -7,7 +7,6 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.jetbrains.annotations.NotNull;
 import xyz.nkomarn.harbor.Harbor;
-import xyz.nkomarn.harbor.util.Config;
 
 public class PlayerListener implements Listener {
 
@@ -25,7 +24,7 @@ public class PlayerListener implements Listener {
             return;
         }
 
-        if (harbor.getConfiguration().getString("version").equals("1.6.2")) {
+        if (harbor.getConfiguration().getString("version").equals("1.6.3")) {
             return;
         }
 

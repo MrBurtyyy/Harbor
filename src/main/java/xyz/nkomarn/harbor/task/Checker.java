@@ -1,24 +1,23 @@
 package xyz.nkomarn.harbor.task;
 
-import org.bukkit.Bukkit;
-import org.bukkit.GameMode;
-import org.bukkit.World;
-import org.bukkit.configuration.ConfigurationSection;
-import org.bukkit.entity.Player;
-
-import org.bukkit.metadata.MetadataValue;
-import org.bukkit.scheduler.BukkitRunnable;
-import org.jetbrains.annotations.NotNull;
-import xyz.nkomarn.harbor.Harbor;
-import xyz.nkomarn.harbor.util.Config;
-import xyz.nkomarn.harbor.util.Messages;
+import static java.util.stream.Collectors.toList;
 
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
-import static java.util.stream.Collectors.toList;
+import org.bukkit.Bukkit;
+import org.bukkit.GameMode;
+import org.bukkit.World;
+import org.bukkit.configuration.ConfigurationSection;
+import org.bukkit.entity.Player;
+import org.bukkit.metadata.MetadataValue;
+import org.bukkit.scheduler.BukkitRunnable;
+import org.jetbrains.annotations.NotNull;
+import xyz.nkomarn.harbor.Harbor;
+import xyz.nkomarn.harbor.util.Config;
+import xyz.nkomarn.harbor.util.Messages;
 
 public class Checker extends BukkitRunnable {
 

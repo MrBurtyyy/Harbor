@@ -1,10 +1,10 @@
 package xyz.nkomarn.harbor.util;
 
+import java.util.List;
+
 import org.bukkit.configuration.file.FileConfiguration;
 import org.jetbrains.annotations.NotNull;
 import xyz.nkomarn.harbor.Harbor;
-
-import java.util.List;
 
 public class Config {
 
